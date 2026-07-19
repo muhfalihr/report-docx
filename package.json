@@ -1,4 +1,6 @@
 {
+  "name": "report-docx",
+  "description": "Claude skill for generating structured .docx reports, based on the Indonesian academic report format (BAB I-V), plus coursework, work, and general templates.",
   "dependencies": {
     "docx": "^9.7.1"
   }
