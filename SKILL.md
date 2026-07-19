@@ -30,11 +30,12 @@ The only things Claude may produce itself are: the template's built-in outline/h
 
 ### Step 1 — Choose a template
 
-Ask the user which report type they want (if not already clear from context). Three options:
+Ask the user which report type they want (if not already clear from context). Options:
 
 1. **Coursework / College Report** — academic/lab report (cover, student & course identity, introduction, theory, discussion, conclusion, references).
 2. **Work Report** — professional/organizational report (cover, executive summary, background, methodology/execution, results, recommendations, appendices).
-3. **General Report** — neutral, flexible outline (title, introduction, body/discussion with any number of sections, closing).
+3. **Academic Paper / Student Assignment (Makalah)** — Indonesian academic BAB I–V structure (Pendahuluan, Tinjauan Pustaka, Metodologi, Hasil dan Analisis, Kesimpulan dan Saran, Daftar Pustaka); A4, Times New Roman 12, 1.5 spacing, margins L 4 cm / T·R·B 3 cm.
+4. **General Report** — neutral, flexible outline (title, introduction, body/discussion with any number of sections, closing).
 
 The detailed outline for each template is in `references/templates.md`. Read that file after the user chooses.
 

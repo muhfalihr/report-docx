@@ -64,8 +64,9 @@ const {
 } = require("docx");
 
 const A4 = { width: 11906, height: 16838 };
-const MARGIN = { top: 1440, right: 1440, bottom: 1440, left: 1440 };
-const CONTENT_W = A4.width - MARGIN.left - MARGIN.right; // 9026 twips
+const CM = 566.93; // twips per cm
+let MARGIN = { top: 1440, right: 1440, bottom: 1440, left: 1440 };
+let CONTENT_W = A4.width - MARGIN.left - MARGIN.right; // 9026 twips
 
 /**
  * Parse a tiny subset of inline markdown into TextRuns: **bold**, *italic*,
@@ -114,6 +115,19 @@ const LINE = Math.round(240 * (opt.lineSpacing || 1.5)); // twips, 240 = single
 const FIRST_INDENT = opt.firstLineIndent !== false ? 720 : 0;
 const HEAD_ALIGN = opt.headingAlign === "center" ? AlignmentType.CENTER : AlignmentType.LEFT;
 const L = Object.assign({ toc: "Daftar Isi", figure: "Gambar", table: "Tabel" }, opt.labels || {});
+
+// Page margins: opt.margins given in cm, else 1-inch default.
+// Indonesian academic default: { left: 4, top: 3, right: 3, bottom: 3 }.
+if (opt.margins) {
+  const m = opt.margins;
+  MARGIN = {
+    top: Math.round((m.top ?? 2.54) * CM),
+    right: Math.round((m.right ?? 2.54) * CM),
+    bottom: Math.round((m.bottom ?? 2.54) * CM),
+    left: Math.round((m.left ?? 2.54) * CM),
+  };
+  CONTENT_W = A4.width - MARGIN.left - MARGIN.right;
+}
 
 const border = { style: BorderStyle.SINGLE, size: 1, color: "999999" };
 const cellBorders = { top: border, bottom: border, left: border, right: border };

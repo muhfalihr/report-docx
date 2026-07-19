@@ -1,0 +1,113 @@
+{
+  "template": "makalah",
+  "options": {
+    "toc": true,
+    "pageNumbers": true,
+    "font": "Times New Roman",
+    "fontSize": 12,
+    "lineSpacing": 1.5,
+    "firstLineIndent": true,
+    "headingAlign": "left",
+    "margins": { "left": 4, "top": 3, "right": 3, "bottom": 3 },
+    "labels": { "toc": "DAFTAR ISI", "figure": "Gambar", "table": "Tabel" }
+  },
+  "cover": {
+    "lines": [
+      { "text": "PEMANFAATAN KECERDASAN BUATAN UNTUK MENDUKUNG PEMBELAJARAN MANDIRI MAHASISWA", "size": 16, "bold": true },
+      { "text": "", "size": 12 },
+      { "text": "Makalah", "size": 12 },
+      { "text": "", "size": 12 },
+      { "text": "Oleh :", "size": 12 },
+      { "text": "Nama Mahasiswa", "size": 12, "bold": true },
+      { "text": "NIM : 00000000", "size": 12 },
+      { "text": "", "size": 12 },
+      { "text": "", "size": 12 },
+      { "text": "PROGRAM STUDI INFORMATIKA", "size": 14, "bold": true },
+      { "text": "FAKULTAS ILMU KOMPUTER", "size": 14, "bold": true },
+      { "text": "NAMA UNIVERSITAS", "size": 14, "bold": true },
+      { "text": "KOTA", "size": 14, "bold": true },
+      { "text": "2026", "size": 14, "bold": true }
+    ]
+  },
+  "sections": [
+    {
+      "heading": "BAB I PENDAHULUAN",
+      "blocks": [
+        { "type": "subheading", "text": "1.1 Latar Belakang" },
+        { "type": "paragraph", "text": "Perkembangan teknologi informasi telah mengubah cara mahasiswa memperoleh dan mengolah pengetahuan. Salah satu perkembangan yang paling menonjol adalah kehadiran kecerdasan buatan (*artificial intelligence*), yang kini banyak dimanfaatkan dalam berbagai bidang, termasuk pendidikan. Kemampuan sistem kecerdasan buatan untuk memberikan respons yang adaptif membuka peluang baru bagi pembelajaran mandiri." },
+        { "type": "paragraph", "text": "Meskipun demikian, pemanfaatan kecerdasan buatan dalam konteks pembelajaran mahasiswa masih menghadapi sejumlah tantangan, mulai dari keterbatasan literasi digital hingga kekhawatiran mengenai ketergantungan. Oleh karena itu, diperlukan kajian yang menelaah bagaimana teknologi ini dapat dimanfaatkan secara tepat guna." },
+        { "type": "subheading", "text": "1.2 Rumusan Masalah" },
+        { "type": "paragraph", "text": "Berdasarkan latar belakang di atas, rumusan masalah dalam makalah ini adalah sebagai berikut:" },
+        { "type": "numbered", "items": [
+          "Bagaimana peran kecerdasan buatan dalam mendukung pembelajaran mandiri mahasiswa?",
+          "Apa saja tantangan yang muncul dalam pemanfaatannya?",
+          "Bagaimana strategi pemanfaatan yang tepat agar memberikan manfaat optimal?"
+        ] },
+        { "type": "subheading", "text": "1.3 Tujuan" },
+        { "type": "paragraph", "text": "Tujuan penulisan makalah ini adalah untuk menjelaskan peran kecerdasan buatan dalam pembelajaran mandiri, mengidentifikasi tantangan yang menyertainya, serta merumuskan strategi pemanfaatan yang tepat bagi mahasiswa." },
+        { "type": "subheading", "text": "1.4 Batasan Masalah" },
+        { "type": "paragraph", "text": "Pembahasan dalam makalah ini dibatasi pada pemanfaatan kecerdasan buatan berbasis teks untuk keperluan belajar mandiri di lingkungan perguruan tinggi, dan tidak mencakup aspek pengembangan teknis model kecerdasan buatan." },
+        { "type": "pagebreak" }
+      ]
+    },
+    {
+      "heading": "BAB II TINJAUAN PUSTAKA",
+      "blocks": [
+        { "type": "subheading", "text": "2.1 Penelitian Terdahulu" },
+        { "type": "paragraph", "text": "Beberapa penelitian terdahulu menunjukkan bahwa penerapan teknologi digital dalam pembelajaran dapat meningkatkan kemandirian belajar mahasiswa (Sukma, 2019). Penelitian lain menegaskan bahwa efektivitas teknologi sangat bergantung pada literasi digital penggunanya (Mukhtarom, 2021)." },
+        { "type": "subheading", "text": "2.2 Kecerdasan Buatan dalam Pendidikan" },
+        { "type": "paragraph", "text": "Kecerdasan buatan dalam pendidikan umumnya dimanfaatkan sebagai asisten belajar yang mampu menjawab pertanyaan, meringkas materi, dan memberikan umpan balik. Ringkasan bentuk pemanfaatannya disajikan pada Tabel 1." },
+        { "type": "table", "caption": "Bentuk Pemanfaatan Kecerdasan Buatan dalam Pembelajaran", "header": ["Bentuk Pemanfaatan", "Manfaat bagi Mahasiswa"], "rows": [
+          ["Asisten tanya-jawab", "Menjawab pertanyaan secara cepat dan kontekstual"],
+          ["Peringkas materi", "Mempercepat pemahaman bacaan yang panjang"],
+          ["Pemberi umpan balik", "Membantu perbaikan tugas secara mandiri"]
+        ] },
+        { "type": "pagebreak" }
+      ]
+    },
+    {
+      "heading": "BAB III METODOLOGI PENELITIAN",
+      "blocks": [
+        { "type": "subheading", "text": "3.1 Metode Penulisan" },
+        { "type": "paragraph", "text": "Makalah ini disusun dengan metode studi pustaka (*literature review*), yaitu mengumpulkan, menelaah, dan mensintesis berbagai sumber yang relevan dengan topik pemanfaatan kecerdasan buatan dalam pembelajaran mandiri." },
+        { "type": "subheading", "text": "3.2 Langkah Penyusunan" },
+        { "type": "numbered", "items": [
+          "Mengidentifikasi topik dan rumusan masalah.",
+          "Mengumpulkan sumber pustaka yang relevan.",
+          "Menelaah dan menyintesis temuan dari sumber.",
+          "Menarik kesimpulan dan menyusun saran."
+        ] },
+        { "type": "pagebreak" }
+      ]
+    },
+    {
+      "heading": "BAB IV HASIL DAN ANALISIS",
+      "blocks": [
+        { "type": "subheading", "text": "4.1 Peran Kecerdasan Buatan dalam Pembelajaran Mandiri" },
+        { "type": "paragraph", "text": "Berdasarkan telaah pustaka, kecerdasan buatan berperan sebagai pendamping belajar yang tersedia sepanjang waktu. Mahasiswa dapat memanfaatkannya untuk memahami konsep yang sulit, memperoleh contoh, serta menguji pemahaman melalui tanya-jawab." },
+        { "type": "subheading", "text": "4.2 Tantangan Pemanfaatan" },
+        { "type": "paragraph", "text": "Tantangan utama meliputi risiko ketergantungan, potensi informasi yang tidak akurat, serta kesenjangan literasi digital. Tanpa sikap kritis, mahasiswa berisiko menerima jawaban tanpa verifikasi." },
+        { "type": "subheading", "text": "4.3 Strategi Pemanfaatan yang Tepat" },
+        { "type": "paragraph", "text": "Strategi yang dianjurkan adalah menempatkan kecerdasan buatan sebagai alat bantu, bukan pengganti proses berpikir. Mahasiswa perlu memverifikasi jawaban terhadap sumber terpercaya dan tetap mengembangkan kemampuan analisis mandiri." },
+        { "type": "pagebreak" }
+      ]
+    },
+    {
+      "heading": "BAB V KESIMPULAN DAN SARAN",
+      "blocks": [
+        { "type": "subheading", "text": "5.1 Kesimpulan" },
+        { "type": "paragraph", "text": "Kecerdasan buatan dapat mendukung pembelajaran mandiri mahasiswa melalui fungsi tanya-jawab, peringkasan, dan umpan balik. Namun, manfaatnya bergantung pada cara pemanfaatannya. Dengan sikap kritis dan verifikasi yang memadai, teknologi ini memberikan nilai tambah bagi kemandirian belajar." },
+        { "type": "subheading", "text": "5.2 Saran" },
+        { "type": "paragraph", "text": "Mahasiswa disarankan memanfaatkan kecerdasan buatan sebagai pelengkap, bukan pengganti, dan institusi pendidikan perlu memberikan panduan literasi digital agar pemanfaatannya berlangsung secara bertanggung jawab." },
+        { "type": "pagebreak" }
+      ]
+    },
+    {
+      "heading": "DAFTAR PUSTAKA",
+      "blocks": [
+        { "type": "paragraph", "text": "Mukhtarom, A. (2021). *Literasi Digital dan Kemandirian Belajar*. Jurnal Pendidikan, 12(2), 45-58." },
+        { "type": "paragraph", "text": "Sukma, R. (2019). *Teknologi Digital dalam Pembelajaran Tinggi*. Bandung: Penerbit Contoh." }
+      ]
+    }
+  ]
+}
