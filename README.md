@@ -1,6 +1,8 @@
 # report-docx
 
-A Claude **skill** for generating professional Word (`.docx`) reports built on the **Indonesian academic report structure** (*laporan akademik / skripsi / tugas akhir / makalah*).
+A Claude **skill** for generating professional Word (`.docx`) reports built on the **Indonesian academic report structure** (*laporan akademik / tugas akhir / makalah*).
+
+> **Important:** This tool is **NOT SUITABLE** for creating a *skripsi* (thesis). It is designed for standard academic papers, assignments, and general reports.
 
 > **Base structure: Indonesian academic report.** The section layout, page setup, and conventions follow the standard Indonesian academic report format — **only the structure is used**; no institution name, faculty, or logo is carried over. This means: A4 paper, Times New Roman 12, line spacing 1.5, justified body, margins **left 4 cm / top·right·bottom 3 cm**, and the fixed **BAB I–V** chapter flow with an automatic *Daftar Isi* and *Daftar Pustaka*.
 
